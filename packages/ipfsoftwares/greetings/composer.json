@@ -1,0 +1,13 @@
+{
+    "name": "ipfsoftwares/greetings",
+    "description": "This is the greeting package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dahabu saidi",
+            "email": "dahabusaidi@gmail.com"
+        }
+    ],
+    "require": {}
+}
