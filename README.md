@@ -1,3 +1,3 @@
 
-## Laravel packages demo projects
+## Laravel packages and demo project
 
