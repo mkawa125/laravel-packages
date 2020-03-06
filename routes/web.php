@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use IPFSoftwares\Greetings\Greetr;
+use IPFSoftwares\ResponseFormatter\Formatter;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,4 +22,9 @@ Route::get('/', function () {
 Route::get('/greet/{name}', function($sName) {
     $oGreetr = new Greetr();
     return $oGreetr->greet($sName);
+});
+
+Route::get('/format/{name}', function($sName) {
+    $oGreetr = new Formatter(2, 200, 'mkawa', 'papaa', 'dd');
+    return $oGreetr->format($sName);
 });
