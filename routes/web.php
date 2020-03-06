@@ -28,3 +28,5 @@ Route::get('/format/{name}', function($sName) {
     $oGreetr = new Formatter(2, 200, 'mkawa', 'papaa', 'dd');
     return $oGreetr->format($sName);
 });
+
+Route::resource('test-response', 'TestResponseControllter');
