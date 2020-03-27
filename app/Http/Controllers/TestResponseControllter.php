@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use IPFSoftwares\ResponseFormatter\Formatter;
+use IPFSoftwares\ResponseFormatter\Facade\Formatter;
 
 class TestResponseControllter extends Controller
 {

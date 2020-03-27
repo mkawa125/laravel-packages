@@ -36,7 +36,7 @@
         "psr-4": {
             "App\\": "app/",
             "IPFSoftwares\\Greetings\\": "packages/ipfsoftwares/greetings/src",
-            "IPFSoftwares\\ResponseFormatter\\": "packages/ipfsoftwares/response-formatter/src"
+            "IPFSoftwares\\ResponseFormatter\\Facade\\": "packages/ipfsoftwares/response-formatter/src"
         },
         "classmap": [
             "database/seeds",
