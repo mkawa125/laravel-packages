@@ -1,5 +1,5 @@
 <?php
-namespace IPFSoftwares\ResponseFormatter\Facade;
+namespace IPFSoftwares\ResponseFormatter;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -28,7 +28,7 @@ class Formatter extends Facade
         $this->message = $message; 
         $this->metadata = $metadata; 
         $this->data = $data; 
-  }
+    }
 
     public function format()
     {
