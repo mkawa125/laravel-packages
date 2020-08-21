@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use IPFSoftwares\ResponseFormatter\Facade\Formatter;
 
-class TestResponseControllter extends Controller
+class TestResponseController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -95,5 +95,10 @@ class TestResponseControllter extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function sendEmail()
+    {
+        dd('am in');
     }
 }
