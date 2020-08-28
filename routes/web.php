@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use IPFSoftwares\Greetings\Greetr;
-// use IPFSoftwares\ResponseFormatter\Formatter;
+use IPFSoftwares\ResponseFormatter\Formatter;
 
 /*
 |--------------------------------------------------------------------------
