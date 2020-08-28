@@ -36,6 +36,7 @@
         "psr-4": {
             "App\\": "app/",
             "IPFSoftwares\\Greetings\\": "packages/ipfsoftwares/greetings/src",
+            "MailSender\\": "packages/ipfsoftwares/emailNotification/src",
             "IPFSoftwares\\ResponseFormatter\\Facade\\": "packages/ipfsoftwares/response-formatter/src"
         },
         "classmap": [
@@ -45,7 +46,11 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "App\\": "app/",
+            "Tests\\": "tests/",
+            "IPFSoftwares\\Greetings\\": "packages/ipfsoftwares/greetings/src",
+            "MailSender\\": "packages/ipfsoftwares/emailNotification/src",
+            "IPFSoftwares\\ResponseFormatter\\Facade\\": "packages/ipfsoftwares/responseFormatter/src"
         }
     },
     "minimum-stability": "dev",
